@@ -1,3 +1,32 @@
+## abb (indigo) - 1.1.9-0
+
+The packages in the `abb` repository were released into the `indigo` distro by running `/usr/bin/bloom-release abb --track indigo --rosdistro indigo` on `Wed, 08 Apr 2015 01:44:18 -0000`
+
+These packages were released:
+- `abb`
+- `abb_driver`
+- `abb_irb2400_moveit_config`
+- `abb_irb2400_moveit_plugins`
+- `abb_irb2400_support`
+- `abb_irb5400_support`
+- `abb_irb6600_support`
+- `abb_irb6640_moveit_config`
+
+Version of package(s) in repository `abb`:
+- upstream repository: https://github.com/ros-industrial/abb.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `1.1.8-0`
+- new version: `1.1.9-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.7`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.1`
+- vcstools version: `0.1.36`
+
+
 ## abb (indigo) - 1.1.8-0
 
 The packages in the `abb` repository were released into the `indigo` distro by running `/usr/bin/bloom-release abb --track indigo --rosdistro indigo` on `Tue, 07 Apr 2015 00:12:41 -0000`
