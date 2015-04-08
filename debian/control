@@ -1,0 +1,12 @@
+Source: ros-indigo-abb-driver
+Section: misc
+Priority: extra
+Maintainer: Shaun Edwards <sedwards@swri.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-industrial-robot-client, ros-indigo-simple-message
+Homepage: http://ros.org/wiki/abb_driver
+Standards-Version: 3.9.2
+
+Package: ros-indigo-abb-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-industrial-robot-client
+Description: ROS-Industrial nodes for interfacing with ABB robot controllers. This package is part of the ROS-Industrial program and contains nodes for interfacing with ABB industrial robot controllers.
