@@ -1,0 +1,66 @@
+ros-indigo-abb-driver (1.2.0-0trusty) trusty; urgency=high
+
+  * No changes
+
+ -- Shaun Edwards <sedwards@swri.org>  Sat, 06 Jun 2015 05:00:00 -0000
+
+ros-indigo-abb-driver (1.1.9-0trusty) trusty; urgency=high
+
+  * No changes
+
+ -- Shaun Edwards <sedwards@swri.org>  Tue, 07 Apr 2015 05:00:00 -0000
+
+ros-indigo-abb-driver (1.1.8-0trusty) trusty; urgency=high
+
+  * No changes
+
+ -- Shaun Edwards <sedwards@swri.org>  Mon, 06 Apr 2015 05:00:00 -0000
+
+ros-indigo-abb-driver (1.1.7-0trusty) trusty; urgency=high
+
+  * Merged hydro branch
+    - Updated CHANGELOG.rst and package.xml files
+  * Contributors: Levi Armstrong
+
+ -- Shaun Edwards <sedwards@swri.org>  Wed, 01 Apr 2015 05:00:00 -0000
+
+ros-indigo-abb-driver (1.1.6-0trusty) trusty; urgency=high
+
+  * Fix typos and links in CHANGELOG.rst
+  * Contributors: Levi Armstrong
+
+ -- Shaun Edwards <sedwards@swri.org>  Tue, 17 Mar 2015 05:00:00 -0000
+
+ros-indigo-abb-driver (1.1.5-0trusty) trusty; urgency=high
+
+  * driver: ROS_motionServer.mod was checking for wrong comm type to send reply
+    message, causing driver to quit working after stop command.
+    Fix #42 <https://github.com/ros-industrial/abb/issues/42>.
+  * Contributors: Levi Armstrong
+
+ -- Shaun Edwards <sedwards@swri.org>  Tue, 17 Mar 2015 05:00:00 -0000
+
+ros-indigo-abb-driver (1.1.4-0trusty) trusty; urgency=high
+
+  * No changes
+
+ -- Shaun Edwards <sedwards@swri.org>  Sun, 14 Dec 2014 06:00:00 -0000
+
+ros-indigo-abb-driver (1.1.3-0trusty) trusty; urgency=high
+
+  * driver: reintroduce coupling factor default.
+    Reverts 3765cd6.
+  * Bump versions.
+  * driver: remove default for J23 coupling parameter.
+    Users should explicitly provide this on the command line, or use one
+    of the convenience launchfiles provided with the support packages.
+    It is of critical importance that this parameter is set to the
+    correct value, and should therefore not be supplied a default in
+    a (for end-users) file with low visibility.
+  * driver: move driver (Rapid and nodes) into separate package.
+    Node sources, headers and launch files copied from abb_common.
+  * Contributors: gavanderhoorn
+
+ -- Shaun Edwards <sedwards@swri.org>  Fri, 05 Sep 2014 05:00:00 -0000
+
+
