@@ -1,0 +1,12 @@
+Source: ros-indigo-abb
+Section: misc
+Priority: extra
+Maintainer: Shaun Edwards <shaun.edwards@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/abb
+Standards-Version: 3.9.2
+
+Package: ros-indigo-abb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-abb-driver, ros-indigo-abb-irb2400-moveit-config, ros-indigo-abb-irb2400-moveit-plugins, ros-indigo-abb-irb2400-support, ros-indigo-abb-irb5400-support, ros-indigo-abb-irb6600-support, ros-indigo-abb-irb6640-moveit-config, ros-indigo-abb-irb6640-support, ros-indigo-abb-resources
+Description: ROS-Industrial support for ABB manipulators (metapackage).
