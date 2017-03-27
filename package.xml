@@ -1,6 +1,6 @@
 <package>
   <name>abb_irb6640_moveit_config</name>
-  <version>1.2.0</version>
+  <version>1.2.1</version>
   <description>
     <p>
       MoveIt package for the ABB IRB 6640.
@@ -32,7 +32,7 @@
   <run_depend>xacro</run_depend>
 
   <run_depend>industrial_robot_simulator</run_depend>
-  <run_depend>abb_irb6600_support</run_depend>
+  <run_depend>abb_irb6640_support</run_depend>
 
   <export>
     <architecture_independent />
