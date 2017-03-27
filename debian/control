@@ -1,0 +1,13 @@
+Source: ros-indigo-abb-irb6640-support
+Section: misc
+Priority: extra
+Maintainer: Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-roslaunch (>= 1.9.55)
+Homepage: http://wiki.ros.org/abb_irb6640_support
+Standards-Version: 3.9.2
+
+Package: ros-indigo-abb-irb6640-support
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-abb-driver, ros-indigo-joint-state-publisher, ros-indigo-robot-state-publisher, ros-indigo-rviz, ros-indigo-xacro
+Description: ROS-Industrial support for the ABB IRB 6640 (and variants).
+ This package contains configuration data, 3D models and launch files for ABB IRB 6640 manipulators. This currently includes the IRB 6640-185/2.8m (6640-185) only. Joint limits and max joint velocities are based on the information in the ABB IRB 6640 technical data sheet (Version: 3HAC 028284-001 Rev. N). All urdfs / xacros are based on the default motion and joint velocity limits, unless noted otherwise (ie: no support for high speed joints, extended / limited motion ranges or other options). Before using any of the configuration files and / or meshes included in this package, be sure to check they are correct for the particular robot model and configuration you intend to use them with.
