@@ -1,0 +1,14 @@
+ros-kinetic-abb-resources (1.3.0-0jessie) jessie; urgency=high
+
+  * No change
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Thu, 25 May 2017 05:00:00 -0000
+
+ros-kinetic-abb-resources (1.2.1-0jessie) jessie; urgency=high
+
+  * Add abb_resources package from mailto:ros-industrial/abb_experimental@f3816a1
+  * Contributors: Levi Armstrong
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Mon, 27 Mar 2017 05:00:00 -0000
+
+
