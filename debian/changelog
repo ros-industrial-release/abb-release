@@ -1,0 +1,8 @@
+ros-kinetic-abb-irb4400-support (1.3.0-0xenial) xenial; urgency=high
+
+  * Removed urdf file
+  * Copied the irb4400 support package from the abb_experimental repo.
+
+ -- Shaun Edwards (SwRI) <sedewards@swri.org>  Thu, 25 May 2017 05:00:00 -0000
+
+
