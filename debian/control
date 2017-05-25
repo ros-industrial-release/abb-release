@@ -1,0 +1,12 @@
+Source: ros-kinetic-abb
+Section: misc
+Priority: extra
+Maintainer: Shaun Edwards <shaun.edwards@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/abb
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-abb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-abb-driver, ros-kinetic-abb-irb2400-moveit-config, ros-kinetic-abb-irb2400-moveit-plugins, ros-kinetic-abb-irb2400-support, ros-kinetic-abb-irb4400-support, ros-kinetic-abb-irb5400-support, ros-kinetic-abb-irb6600-support, ros-kinetic-abb-irb6640-moveit-config, ros-kinetic-abb-irb6640-support, ros-kinetic-abb-resources
+Description: ROS-Industrial support for ABB manipulators (metapackage).
