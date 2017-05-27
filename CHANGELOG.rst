@@ -1,9 +1,12 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changelog for package abb_resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1.3.0 (2017-05-25)
+
+1.3.0 (2017-05-27)
 ------------------
-* No change
+* remove reference to source build and rebase to indigo devel.
+* kinetic-devel release of ros-industrial/abb
+* Contributors: Austin Deric
 
 1.2.1 (2017-03-27)
 ------------------
