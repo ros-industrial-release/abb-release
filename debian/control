@@ -1,0 +1,13 @@
+Source: ros-kinetic-abb-irb2400-moveit-config
+Section: misc
+Priority: extra
+Maintainer: Shaun Edwards (Southwest Research Institute) <sedwards@swri.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/abb_irb2400_moveit_config
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-abb-irb2400-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-abb-irb2400-moveit-plugins, ros-kinetic-abb-irb2400-support, ros-kinetic-industrial-robot-simulator, ros-kinetic-joint-state-publisher, ros-kinetic-moveit-planners-ompl, ros-kinetic-moveit-ros-move-group, ros-kinetic-moveit-ros-visualization, ros-kinetic-moveit-simple-controller-manager, ros-kinetic-robot-state-publisher, ros-kinetic-xacro
+Description: MoveIt package for the ABB IRB 2400.
+ An automatically generated package with all the configuration and launch files for using the ABB IRB 2400 with the MoveIt Motion Planning Framework.
