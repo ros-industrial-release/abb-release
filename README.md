@@ -1,3 +1,37 @@
+## abb (kinetic) - 1.3.1-1
+
+The packages in the `abb` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro=kinetic abb` on `Tue, 17 Sep 2019 15:50:49 -0000`
+
+These packages were released:
+- `abb`
+- `abb_driver`
+- `abb_irb2400_moveit_config`
+- `abb_irb2400_moveit_plugins`
+- `abb_irb2400_support`
+- `abb_irb4400_support`
+- `abb_irb5400_support`
+- `abb_irb6600_support`
+- `abb_irb6640_moveit_config`
+- `abb_irb6640_support`
+- `abb_resources`
+
+Version of package(s) in repository `abb`:
+
+- upstream repository: https://github.com/ros-industrial/abb.git
+- release repository: https://github.com/ros-industrial-release/abb-release.git
+- rosdistro version: `1.3.0-1`
+- old version: `1.3.0-1`
+- new version: `1.3.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## abb (kinetic) - 1.3.0-1
 
 The packages in the `abb` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release abb --track kinetic --rosdistro kinetic` on `Sat, 27 May 2017 20:42:24 -0000`
