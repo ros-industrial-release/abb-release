@@ -1,0 +1,13 @@
+Source: ros-kinetic-abb-irb6600-support
+Section: misc
+Priority: extra
+Maintainer: Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch
+Homepage: http://ros.org/wiki/abb_irb6600_support
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-abb-irb6600-support
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-abb-driver, ros-kinetic-joint-state-publisher, ros-kinetic-robot-state-publisher, ros-kinetic-rviz
+Description: ROS-Industrial support for the ABB IRB 6600 (and variants).
+ This package contains configuration data, 3D models and launch files for ABB IRB 6600 manipulators. This currently includes the base model. Joint limits and max joint velocities are based on the information in the ABB data sheets. All URDFs / XACROs are based on the default motion and joint velocity limits, unless noted otherwise (ie: no support for high speed joints, extended / limited motion ranges or other options). Before using any of the configuration files and / or meshes included in this package, be sure to check they are correct for the particular robot model and configuration you intend to use them with. The unqualified IRB 6400 model will be removed in ROS-Lunar, please use the abb_irb6640_support as a replacement.
