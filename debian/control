@@ -1,0 +1,13 @@
+Source: ros-kinetic-abb-resources
+Section: misc
+Priority: extra
+Maintainer: Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/abb_resources
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-abb-resources
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Shared configuration data for ABB manipulators.
+ This package contains common urdf / xacro resources used by ABB related packages.
