@@ -1,0 +1,90 @@
+ros-melodic-abb-driver (1.3.1-1stretch) stretch; urgency=high
+
+  * Add robot status publishing to Rapid driver (#168 <https://github.com/ros-industrial/abb/pull/168>)
+  * Fix is_near check (#155 <https://github.com/ros-industrial/abb/issues/155>)
+  * Add support for external linear axes to abb_driver (#150 <https://github.com/ros-industrial/abb/issues/150>)
+  * Use the 'doc' attribute on 'arg' elements. (#143 <https://github.com/ros-industrial/abb/issues/143>)
+  * Update maintainers (#139 <https://github.com/ros-industrial/abb/issues/139>)
+  * Contributors: Gonzalo Casas, Harsh Deshpande, JD Yamokoski, Keerthana Manivannan, gavanderhoorn
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Mon, 16 Sep 2019 22:00:00 -0000
+
+ros-melodic-abb-driver (1.3.0-1stretch) stretch; urgency=high
+
+  * kinetic-devel release of ros-industrial/abb
+  * Contributors: AustinDeric
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Fri, 26 May 2017 22:00:00 -0000
+
+ros-melodic-abb-driver (1.2.1-1stretch) stretch; urgency=high
+
+  * No changes
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Sun, 26 Mar 2017 22:00:00 -0000
+
+ros-melodic-abb-driver (1.2.0-1stretch) stretch; urgency=high
+
+  * No changes
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Fri, 05 Jun 2015 22:00:00 -0000
+
+ros-melodic-abb-driver (1.1.9-1stretch) stretch; urgency=high
+
+  * No changes
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Mon, 06 Apr 2015 22:00:00 -0000
+
+ros-melodic-abb-driver (1.1.8-1stretch) stretch; urgency=high
+
+  * No changes
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Sun, 05 Apr 2015 22:00:00 -0000
+
+ros-melodic-abb-driver (1.1.7-1stretch) stretch; urgency=high
+
+  * Merged hydro branch
+    - Updated CHANGELOG.rst and package.xml files
+  * Contributors: Levi Armstrong
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Tue, 31 Mar 2015 22:00:00 -0000
+
+ros-melodic-abb-driver (1.1.6-1stretch) stretch; urgency=high
+
+  * Fix typos and links in CHANGELOG.rst
+  * Contributors: Levi Armstrong
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Mon, 16 Mar 2015 23:00:00 -0000
+
+ros-melodic-abb-driver (1.1.5-1stretch) stretch; urgency=high
+
+  * driver: ROS_motionServer.mod was checking for wrong comm type to send reply
+    message, causing driver to quit working after stop command.
+    Fix #42 <https://github.com/ros-industrial/abb/issues/42>.
+  * Contributors: Levi Armstrong
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Mon, 16 Mar 2015 23:00:00 -0000
+
+ros-melodic-abb-driver (1.1.4-1stretch) stretch; urgency=high
+
+  * No changes
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Sat, 13 Dec 2014 23:00:00 -0000
+
+ros-melodic-abb-driver (1.1.3-1stretch) stretch; urgency=high
+
+  * driver: reintroduce coupling factor default.
+    Reverts 3765cd6.
+  * Bump versions.
+  * driver: remove default for J23 coupling parameter.
+    Users should explicitly provide this on the command line, or use one
+    of the convenience launchfiles provided with the support packages.
+    It is of critical importance that this parameter is set to the
+    correct value, and should therefore not be supplied a default in
+    a (for end-users) file with low visibility.
+  * driver: move driver (Rapid and nodes) into separate package.
+    Node sources, headers and launch files copied from abb_common.
+  * Contributors: gavanderhoorn
+
+ -- Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>  Thu, 04 Sep 2014 22:00:00 -0000
+
+

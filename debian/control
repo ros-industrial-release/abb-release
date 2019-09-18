@@ -1,0 +1,13 @@
+Source: ros-melodic-abb-driver
+Section: misc
+Priority: extra
+Maintainer: Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-industrial-robot-client
+Homepage: http://ros.org/wiki/abb_driver
+Standards-Version: 3.9.2
+
+Package: ros-melodic-abb-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-industrial-robot-client
+Description: ROS-Industrial nodes for interfacing with ABB robot controllers.
+ This package is part of the ROS-Industrial program and contains nodes for interfacing with ABB industrial robot controllers.
