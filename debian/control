@@ -1,0 +1,13 @@
+Source: ros-noetic-abb-irb2600-support
+Section: misc
+Priority: optional
+Maintainer: ROS-Industrial community <noreply@rosindustrial.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roslaunch <!nocheck>
+Homepage: http://wiki.ros.org/abb_irb2600_support
+Standards-Version: 3.9.2
+
+Package: ros-noetic-abb-irb2600-support
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-abb-driver, ros-noetic-abb-resources, ros-noetic-industrial-robot-client, ros-noetic-joint-state-publisher-gui, ros-noetic-robot-state-publisher, ros-noetic-rviz, ros-noetic-xacro
+Description: ROS-Industrial support for the ABB IRB 2600 (and variants).
+ This package contains configuration data, 3D models and launch files for ABB IRB 2600 manipulators. This currently includes the IRB 2600-12/1.65 (20/1.65) and the IRB 2600-12/1.85. Variants listed in parenthesis may use the files of the preceding model. Joint limits and max joint velocities are based on the information in the ABB IRB 2600 technical data sheet (Version: ROB0142EN_B, October 2010) and the ABB Product specification IRB 2600, document ID: 3HAC035959-001, Rev. AE for the IRB 2600-12/1.85 variant. All urdfs / xacros are based on the default motion and joint velocity limits, unless noted otherwise (ie: no support for high speed joints, extended / limited motion ranges or other options). Before using any of the configuration files and / or meshes included in this package, be sure to check they are correct for the particular robot model and configuration you intend to use them with.
