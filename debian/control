@@ -1,0 +1,12 @@
+Source: ros-noetic-abb
+Section: misc
+Priority: optional
+Maintainer: ROS-Industrial community <noreply@rosindustrial.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/abb
+Standards-Version: 3.9.2
+
+Package: ros-noetic-abb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-abb-crb15000-support, ros-noetic-abb-driver, ros-noetic-abb-irb120-support, ros-noetic-abb-irb1200-support, ros-noetic-abb-irb1600-support, ros-noetic-abb-irb2400-support, ros-noetic-abb-irb2600-support, ros-noetic-abb-irb4400-support, ros-noetic-abb-irb4600-support, ros-noetic-abb-irb52-support, ros-noetic-abb-irb5400-support, ros-noetic-abb-irb6600-support, ros-noetic-abb-irb6640-support, ros-noetic-abb-irb6650s-support, ros-noetic-abb-irb6700-support, ros-noetic-abb-irb7600-support, ros-noetic-abb-resources
+Description: ROS-Industrial support for ABB manipulators (metapackage).
