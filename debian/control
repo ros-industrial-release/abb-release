@@ -1,0 +1,13 @@
+Source: ros-noetic-abb-irb120-support
+Section: misc
+Priority: optional
+Maintainer: ROS-Industrial community <noreply@rosindustrial.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roslaunch <!nocheck>
+Homepage: http://wiki.ros.org/abb_irb120_support
+Standards-Version: 3.9.2
+
+Package: ros-noetic-abb-irb120-support
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-abb-driver, ros-noetic-abb-resources, ros-noetic-industrial-robot-client, ros-noetic-joint-state-publisher-gui, ros-noetic-robot-state-publisher, ros-noetic-rviz, ros-noetic-xacro
+Description: ROS-Industrial support for the ABB IRB 120 (and variants).
+ This package contains configuration data, 3D models and launch files for ABB IRB 120 manipulators. This includes the base model (120) and the 120T. Joint limits and max joint velocities are based on the information in the ABB IRB 120 technical data sheet (Version: ROB0149EN_D, May 2012). All urdfs / xacros are based on the default motion and joint velocity limits, unless noted otherwise (ie: no support for high speed joints, extended / limited motion ranges or other options). Inertial and mass properties were calculated using 3D modelling software, based on the supplied ABB IRB 120 CAD model. Before using any of the configuration files and / or meshes included in this package, be sure to check they are correct for the particular robot model and configuration you intend to use them with.
