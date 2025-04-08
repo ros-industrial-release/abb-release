@@ -1,3 +1,54 @@
+## abb (noetic) - 1.5.0-1
+
+The packages in the `abb` repository were released into the `noetic` distro by running `/home/klaas/ros/abb_ws/venv_catkin_pkg/bin/bloom-release --rosdistro=noetic --track=noetic abb --edit` on `Tue, 08 Apr 2025 17:14:00 -0000`
+
+These packages were released:
+- `abb`
+- `abb_crb15000_support`
+- `abb_irb1200_support`
+- `abb_irb120_support`
+- `abb_irb1600_support`
+- `abb_irb2400_support`
+- `abb_irb2600_support`
+- `abb_irb4400_support`
+- `abb_irb4600_support`
+- `abb_irb52_support`
+- `abb_irb5400_support`
+- `abb_irb6600_support`
+- `abb_irb6640_support`
+- `abb_irb6650s_support`
+- `abb_irb6700_support`
+- `abb_irb7600_support`
+- `abb_resources`
+
+These packages were explicitly ignored:
+- `abb_irb1200_5_90_moveit_config`
+- `abb_irb1200_7_70_moveit_config`
+- `abb_irb1200_gazebo`
+- `abb_irb120_gazebo`
+- `abb_irb120_moveit_config`
+- `abb_irb120t_moveit_config`
+- `abb_irb1600_6_12_moveit_config`
+- `abb_irb2400_moveit_config`
+- `abb_irb6640_moveit_config`
+
+Version of package(s) in repository `abb`:
+
+- upstream repository: https://github.com/ros-industrial/abb.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## abb (melodic) - 1.3.1-1
 
 The packages in the `abb` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro=melodic --track=melodic abb --edit` on `Wed, 18 Sep 2019 12:28:12 -0000`
